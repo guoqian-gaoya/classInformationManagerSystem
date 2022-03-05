@@ -12,4 +12,3 @@ git checkout <branchname>	--单纯地切换到某个分支
 git branch -D <branchname>	--删掉特定的分支
 git merge <branchname>	--合并分支
 git push			--推送
-git pull
