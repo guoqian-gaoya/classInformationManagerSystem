@@ -6,3 +6,9 @@ git config --global user.name "lingxi"	-- 设置用户名
 git config --global user.email	"412642208@qq.com"	--设置邮箱
 git check README.md	--工作区打回
 git reset HEAD^		--提交后撤回 
+git checkout -b <branchname>	--以当前分治为基础新建分支
+git branch 		--列举所有分支
+git checkout <branchname>	--单纯地切换到某个分支
+git branch -D <branchname>	--删掉特定的分支
+git merge <branchname>	--合并分支
+git push			--推送
